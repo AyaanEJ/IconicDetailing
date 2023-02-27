@@ -7,7 +7,7 @@
 html{
 font-size: 10px; 
 font-family: 'Montserrat', sans-serif ;
-font-family: 10px;
+/* font-family: 10px; */
 }
 a{
 text-decoration: none;
@@ -32,24 +32,57 @@ p{
     font-weight: 300;
     letter-spacing: .05rem;
 }
-.section-title{
-    font-size: 4rem;
-    font-weight: 300;
-    color: black;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-    letter-spacing: .2rem;
-    text-align: center;
+.header {
+    margin:0;
+    padding:0;
+    background: gray;
+}  
+nav{
+    width:100%;
+    background:black;
+    overflow: auto;
 }
+.navbar{
+    padding:0;
+    margin: 0px 200px 40px;
+    list-style:none;
+}
+#list{
+    float:left;
+}
+.logo img{
+    position:absolute;
+    margin-top:15px;
+    margin-left:10px;
+    height:auto;
+    max-width:9%;
+}
+.navbar a{
+    margin-left:50px;
+    width:100px;
+    display:block;
+    padding:20px 15px;
+    text-decoration:none;
+    color:#ffffff;
+    text-align:center;
+}
+.navbar a:hover{
+background:#3366ff;
+transition:0.5s;
+text-transform:uppercase;
+}
+
 .section-title span{
-    color: crimson;
+    color: #3366ff;
 }
 .cta{
     display: inline-block;
     padding: 10px 30px;
-    color: crimson;
+    color: #3366ff;
+    /* crimson; */
     background-color: transparent;
-    border: 2px solid crimson;
+    border: 2px solid #3366ff;
+   /* crimson; */
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
@@ -59,7 +92,8 @@ p{
     }
 .cta:hover{
     color: white;
-    background-color: crimson;
+    background-color: #3366ff;
+    /* crimson; */
     }
 .brand h1{
     font-size: 3rem;
@@ -90,7 +124,7 @@ left: 0;
 top: 0;
 height: 100%;
 width: 100%;
-background-color: rgb(0, 0, 0);
+background-color:rgb(0, 0, 0);
 opacity: .3;
 z-index: -1;
 }
@@ -121,7 +155,8 @@ top: 0;
 left: 0;
 height: 100%;
 width: 0;
-background-color: crimson;
+background-color: #3366ff;
+/* crimson; */
 animation: text_reveal_box 1s ease;
 animation-delay: .3s;
 }
@@ -175,7 +210,7 @@ animation-delay: .5s;
    top: 0;
    height: 100%;
    width: 100%;
-   background-image: linear-gradient(100deg, crimson 20%, rgb(0, 0, 0) 100%);
+   background-image: linear-gradient(100deg, #3366ff 20%, rgb(0, 0, 0) 100%);
    opacity: .3;
    z-index: -1;
    /*background-color: black;*/
@@ -234,7 +269,7 @@ animation-delay: .5s;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    background-image: linear-gradient(100deg, crimson 20%, rgb(0, 0, 0) 100%);
+    background-image: linear-gradient(100deg, #3366ff, rgb(0, 0, 0) 70%);
     color: white;
 }
 #projects .project-info h1{
@@ -317,6 +352,7 @@ color: white;
     height: 98%;
     width: 98%;
     border: 7px solid crimson;
+    /* #3366ff */
     z-index: -1;
 
 }
@@ -344,10 +380,12 @@ color: white;
     align-items: center;
     flex-direction: column;
     box-shadow: 0px 0px 18px 0 #0000002c;
+     /* #3366ff blue hover */
     transition: .3s ease box-shadow;
 }
 #contact .contact-item:hover{
   box-shadow: 0px 0px 5px 0 #0000002c;  
+  /* #3366ff blue hover */
 }
 #contact .icon{
     width: 70px;
@@ -368,7 +406,8 @@ color: white;
 
 /*Footer*/
 #footer{
-    background-image: linear-gradient(100deg, crimson 20%, rgb(0, 0, 0) 100%);
+    background-image: linear-gradient(100deg, #3366ff 10%, rgb(0, 0, 0) 100%);
+    /*crimson*/
 }
 #footer .footer{
     min-height: 200px;
@@ -419,7 +458,8 @@ color: white;
 }
 @keyframes text_reveal{
 100%{
-    color: rgb(255, 255, 255);
+    color: #3366ff;
+    /* rgb(255, 255, 255); */
 }
 }
 /* End keyframes*/
@@ -482,7 +522,8 @@ color: white;
         top: 34px;
         height: 100%;
         width: 100%;
-        border: 10px solid crimson;
+        border: 10px solid #3366ff;
+        /*crimson;*/
     }
     #about .col-right{
         text-align: left;
