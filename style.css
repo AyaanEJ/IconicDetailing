@@ -32,6 +32,7 @@ p{
     font-weight: 300;
     letter-spacing: .05rem;
 }
+/* start navbar */
 .header {
     margin:0;
     padding:0;
@@ -44,7 +45,7 @@ nav{
 }
 .navbar{
     padding:0;
-    margin: 0px 200px 40px;
+    margin: 0px 200px 120px;
     list-style:none;
 }
 #list{
@@ -71,6 +72,7 @@ background:#3366ff;
 transition:0.5s;
 text-transform:uppercase;
 }
+/* End navbar */
 
 .section-title span{
     color: #3366ff;
